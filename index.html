@@ -8,23 +8,24 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="bootstrap.css">
         <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="stylesheet.css">
     </head>
     <body>
-        <div class="container-sm w-50 m-5 p-5 mx-auto border  " >
-            <div class="container-sm container-md bg-primary text-center">
+        <div class="container-sm w-50 m-5 p-5 mx-auto " id="form">
+            <div class="container-sm container-md  text-center" id="Title" >
                 <h1>
                     REGISTER 
                 </h1>
             </div>
-            <div class="container-sm container-md position-relative text-center ms-0 p-2">
+            <div class="container-sm container-md position-relative  p-2" id="name">
                 <label>Name</label> 
                 <input class="text-center" type="text" placeholder="Write Your Name" name="name" onsubmit="required()" required>
             </div>
-            <div class="container-sm container-md text-center ms-1 p-2">
+            <div class="container-sm container-md  p-2" id="address">
                 <label>Address</label> 
                 <input class="text-center" type="text" placeholder="Write Your Address" required>
             </div>
-            <div class="container-sm container-md text-center p-2">
+            <div class="container-sm container-md  p-2" id="mobno">
                 <label>Mobile Number</label> 
                 <input class="text-center" type="tel"  placeholder="Write Your 10-digit Mobile Number" pattern="[0-9]{10}" required>
             </div>
