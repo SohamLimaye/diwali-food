@@ -1,0 +1,35 @@
+body{
+    /*background-color: rgb(226, 224, 229);*/
+    border-color: black;
+}
+#form{
+    border-color: black;
+    border: 2px solid;
+    text-align: center;
+}
+/*#name{
+    margin-left: 1.5%;
+}
+#address{
+    margin-left: 2%;
+}
+#mobno{
+    margin-left: 7%;
+}*/
+#Title{
+    background-color: rgb(113, 44, 218);
+}
+label {
+    display: inline-block;
+    width: 175px;
+    color: #777777;
+    font-family: poppins;
+    color: black;
+}
+input{
+    width: 300px;
+    
+}
+placeholder{
+    color: lightgray;
+}
