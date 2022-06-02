@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Menu
+        </title>
+        <link rel="stylesheet" href="bootstrap.css">
+        <link rel="stylesheet" href="menu.css">
+        <link rel="stylesheet" href="stylesheet.css">
+    </head>
+    <body>
+        <div id="nav">
+            <div id="tab">
+                <a href="#home">Home</a>
+            </div>
+            <div id="tab">
+                <a href="#contact">Contact</a>
+            </div>    
+            <div id="tab">
+                <a href="#About" >About</a>
+            </div>
+            <div>
+            <a href="index.html" id="tab">Register</a>
+            </div>
+        </div>
+        <br>
+        <div class="container text-center ">
+            <p  id="title">
+                Welcome to <u>Firefly Production & Events</u> online store
+            </p>
+            <br>
+            <p style="font-size:200% ;">
+                This is our <i><b>Exclusive Menu!</b><i>
+            </p>
+            <div class="container" id="menu">              
+                    <li>Sweets 
+                        <button type="button"  id="sweet" onclick="drop()">
+                        <img src="downarrow.png" width="25" height="25">
+                        </button>
+                        <button type="button" id="sweetd" onclick="up()">
+                            <img src="uparrow.png" width="25" height="25" id="myimg">
+                        </button> 
+                    </li> 
+                    <div id="drop">
+                        <div class="row" >
+                            <div class=" container-xl" id="grid" >
+                                <img src="kajrol.jpg" alt="Dry-fruit Kaju roll" id="gridimg" width="1240" height="720"> 
+                                <dd>Dry-Fruit Kaju Roll Rs.750/kg</dd>  
+                            </div>
+                            <div class=" container-xl" id="grid" >
+                                <img src="kaju.jpg" alt="chakli" id="gridimg" width="1240" height="720" >
+                                <dd>Kaju Katli Rs.750/kg</dd>
+                            </div>
+                            <div class=" container-xl" id="grid" >
+                                <img src="badkat.jpg" alt="Badam Katli" id="gridimg" width="1240" height="720" >
+                                <dd>Badam Katli Rs.800/kg</dd>
+                            </div>
+                            <div class=" container-xl" id="grid" >
+                                <img src="montha.jpg" alt="Badam Katli" id="gridimg" width="1240" height="720" >
+                                <dd>Mohan Thal Rs.400/kg</dd>
+                            </div>
+                            <div class=" container-xl" id="grid" >
+                                <img src="guljam.jpg" alt="Badam Katli" id="gridimg" width="1240" height="720" >
+                                <dd>Gulab Jam Rs.300/kg</dd>
+                            </div>
+                            <div class=" container-xl" id="grid" >
+                                <img src="drybar.jpg" alt="Badam Katli" id="gridimg" width="1240" height="720" >
+                                <dd>Dry-Fruit Barfi Rs.500/kg</dd>
+                            </div>
+                            <div class=" container-xl" id="grid" >
+                                <img src="desmot.jpg" alt="Badam Katli" id="gridimg" width="1240" height="720" >
+                                <dd>Desi Moti-chori Laddu Rs.400/kg</dd>
+                            </div>
+                            <div class=" container-xl" id="grid" >
+                                <img src="beslad.jpg" alt="Badam Katli" id="gridimg" width="1240" height="720" >
+                                <dd>Besan Laddu Rs.300/kg</dd>
+                            </div>
+                            <div class=" container-xl" id="grid" >
+                                <img src="ravlad.jpg" alt="Badam Katli" id="gridimg" width="1240" height="720" >
+                                <dd>Rava Laddu Rs.200/kg</dd>
+                            </div>
+                            <div class=" container-xl" id="grid" >
+                                <img src="deskur.jpg" alt="Badam Katli" id="gridimg" width="1240" height="720" >
+                                <dd>Desi Ghee Khurma  Rs.300/kg</dd>
+                            </div>
+                            <div class=" container-xl" id="grid" >
+                                <img src="shapal.jpg" alt="Badam Katli" id="gridimg" width="1240" height="720" >
+                                <dd>Shankar Pali Rs.250/kg</dd>
+                            </div>
+                            <div class=" container-xl" id="grid" >
+                                <img src="karanji.jpg" alt="Badam Katli" id="gridimg" width="1240" height="720" >
+                                <dd>Karanji Rs.350/kg</dd>
+                            </div>
+                            <div class=" container-xl" id="grid" >
+                                <img src="balsha.jpg" alt="Badam Katli" id="gridimg" width="1240" height="720" >
+                                <dd>Balushahi Rs.250/kg</dd>
+                            </div>
+                            <div class=" container-xl" id="grid" >
+                                <img src="boondi.jpg" alt="Badam Katli" id="gridimg" width="1240" height="720" >
+                                <dd>Boondi Rs.350/kg</dd>
+                            </div>
+                            <div class=" container-xl" id="grid" >
+                                <img src="desmot.jpg" alt="Badam Katli" id="gridimg" width="1240" height="720" >
+                                <dd>Sada Moti-chori Laddu Rs.250/kg</dd>
+                            </div>
+                            <div class=" container-xl" id="grid" >
+                                <img src="papdi.jpg" alt="Papdi" id="gridimg" width="1240" height="720" >
+                                <dd>Papdi Rs.240/kg</dd>
+                            </div>
+                        </div>
+                    </div>        
+                    <ul>
+                    <li><a href="#Salty">Salty</a></li>
+                    <li><a href="#Spicy">Spicy</a></li>                
+                </ul>
+            </div>
+            <div>
+                <div>
+                    <p id="Salty">
+                        Salty
+                    </p>
+                </div>
+                <div class="container-lg">
+                    <div class="row">
+                        <div class=" container-xl" id="grid" >
+                            <img src="salsha.jpg" alt="Shankar Pali" id="gridimg" width="1240" height="720" >
+                            <dd>Shankar Pali Rs.200/kg</dd>
+                        </div>
+                        <div class=" container-xl" id="grid" >
+                            <img src="palsev.jpg" alt="Papdi" id="gridimg" width="1240" height="720" >
+                            <dd>Palak Shev Rs.240/kg</dd>
+                        </div>
+                        <div class=" container-xl" id="grid" >
+                            <img src="barsev.jpg" alt="Barik Shev" id="gridimg" width="1240" height="720" >
+                            <dd>Barik Shev Rs.240/kg</dd>
+                        </div>
+                        <div class=" container-xl" id="grid" >
+                            <img src="pudsev.jpg" alt="Shankar Pali" id="gridimg" width="1240" height="720" >
+                            <dd>Pudina Sev Rs.240/kg</dd>
+                        </div>
+                        <div class=" container-xl" id="grid" >
+                            <img src="mathri.jpg" alt="Shankar Pali" id="gridimg" width="1240" height="720" >
+                            <dd>Khari Puri(Mathri) Rs.200/kg</dd>
+                        </div>
+    
+                    </div>
+    
+                </div>
+                <div>
+                    <p id="Spicy">
+                        Spicy
+                    </p>
+                </div>
+                <div class="container-lg">
+                    <div class="row">
+                        <div class=" container-xl" id="grid" >
+                            <img src="chakli.jpg" alt="Dry-fruit Kaju roll" id="gridimg" width="1240" height="720"> 
+                            <dd>Chakli Rs.350/kg</dd>  
+                        </div>
+                        <div class=" container-xl" id="grid" >
+                            <img src="massev.jpg" alt="Barik Shev" id="gridimg" width="1240" height="720" >
+                            <dd>Masala Shev Rs.240/kg</dd>
+                        </div>
+                        <div class=" container-xl" id="grid" >
+                            <img src="lassev.jpg" alt="Papdi" id="gridimg" width="1240" height="720" >
+                            <dd>Lasun Sev Rs.240/kg</dd>
+                        </div>
+                        <div class=" container-xl" id="grid" >
+                            <img src="makchi.jpg" alt="Papdi" id="gridimg" width="1240" height="720" >
+                            <dd>Makka Chivda Rs.240/kg</dd>
+                        </div>
+                        <div class=" container-xl" id="grid" >
+                            <img src="dagchi.jpg" alt="Papdi" id="gridimg" width="1240" height="720" >
+                            <dd>Dagdi Poha Chivda Rs.240/kg</dd>
+                        </div>
+                        <div class=" container-xl" id="grid" >
+                            <img src="jadchi.jpg" alt="Papdi" id="gridimg" width="1240" height="720" >
+                            <dd>Bhajka Poha Chivda Rs.240/kg</dd>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </div>
+        <script>
+            function drop()
+            {
+                document.getElementById("drop").style.display = "contents"
+                document.getElementById("sweet").style.display = "none"
+                document.getElementById('sweetd').src='uparrow.png'
+                document.getElementById("sweetd").style.display = "contents"
+            }
+            function up()
+            {
+                document.getElementById("drop").style.display = "none"
+                document.getElementById("sweet").style.display = "contents"
+                document.getElementById("sweetd").style.display = "none"
+            }
+        </script>
+    </body>
+</html>
