@@ -1,11 +1,14 @@
 body{
-    /*background-color: rgb(226, 224, 229);*/
+    background-color: beige;
     border-color: black;
+    font-family: poppins;
 }
 #form{
     border-color: black;
-    border: 2px solid;
+    border: 2px solid ;
     text-align: center;
+    width: fit-content;
+    margin-top: 8%;
 }
 /*#name{
     margin-left: 1.5%;
@@ -32,4 +35,24 @@ input{
 }
 placeholder{
     color: lightgray;
+}
+#nav{
+    list-style-type: none;
+    background-color: black;
+    color: white;
+    position: fixed;
+    width: 100%;
+    top: 0%;
+    height: fit-content;
+}
+#tab{
+    width: fit-content;
+    padding: 0.5%;
+    top: 0%;
+    border: 2px white solid;
+    float: left;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 1%;
+    margin-bottom: 1%;
 }
